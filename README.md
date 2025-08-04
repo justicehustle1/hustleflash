@@ -1,83 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>HustleFlash - By Justice</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body { font-family: Arial, sans-serif; background: #0d1117; color: #f0f6fc; margin: 0; padding: 0; }
-        header { background: #161b22; padding: 2rem; text-align: center; }
-        h1 { font-size: 2.5rem; margin: 0; color: #58a6ff; }
-        section { padding: 2rem; text-align: center; }
-        .btns a {
-            display: inline-block;
-            margin: 1rem;
-            padding: 1rem 2rem;
-            background: #238636;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: bold;
-        }
-        .blog-post { margin-bottom: 1.5rem; background: #21262d; padding: 1rem; border-radius: 8px; }
-        footer { background: #161b22; padding: 2rem; text-align: center; color: #8b949e; }
-        a.telegram { color: #58a6ff; text-decoration: none; font-weight: bold; }
-        a.download-btn {
-            background: #f0b429;
-            padding: 1rem 2rem;
-            color: #000;
-            font-weight: bold;
-            text-decoration: none;
-            border-radius: 8px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HustleFlash</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: url('https://images.unsplash.com/photo-1554224154-22dec7ec8818?auto=format&fit=crop&w=1400&q=80') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      color: white;
+      height: 100vh;
+      position: relative;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+      z-index: 1;
+    }
+
+    .content {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>HustleFlash</h1>
-        <p>Money Tips, Affiliate Tricks, and Real Hustles</p>
-        <p>By <strong>Justice</strong></p>
-    </header>
-
-    <section>
-        <h2>Click and Earn</h2>
-        <div class="btns">
-            <a href="https://www.amazon.com/?tag=justiceflash2-20" target="_blank">Shop on Amazon</a>
-            <a href="https://www.jumia.com.ng" target="_blank">Deals on Jumia</a>
-            <a href="https://www.clickbank.com" target="_blank">Promote on ClickBank</a>
-        </div>
-    </section>
-
-    <section>
-        <h2>Latest Tips & Hustles</h2>
-        <div class="blog-post">
-            <h3>💡 Hustle Tip #1:</h3>
-            <p>Use Amazon affiliate links in WhatsApp groups. Add short reviews and earn per click.</p>
-        </div>
-        <div class="blog-post">
-            <h3>📲 Side Hustle Idea:</h3>
-            <p>Use your phone to resell cheap digital services like airtime, followers, or designs.</p>
-        </div>
-    </section>
-
-    <section>
-        <h2>Download Our App</h2>
-        <a class="download-btn" href="https://chat.openai.com/sandbox/mnt/data/hustleflash‑1.0.apk">Download for Android</a>
-    </section>
-
-    <section>
-        <h2>Join Us</h2>
-        <p>Follow us on Telegram: <a class="telegram" href="https://t.me/l_elastar" target="_blank">@l_elastar</a></p>
-    </section>
-
-    <section>
-        <h2>Contact</h2>
-        <p>WhatsApp: <strong>+2347034308620</strong> for more details</p>
-    </section>
-
-    <footer>
-        &copy; 2025 HustleFlash. Built by Justice.
-    </footer>
+  <div class="overlay"></div>
+  <div class="content">
+    <h1>HustleFlash</h1>
+    <p>Smartphone Hustles | Affiliate Marketing | Money Tips for Broke Youths</p>
+  </div>
 </body>
 </html>
-"""
