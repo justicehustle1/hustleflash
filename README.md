@@ -1,6 +1,3 @@
-# Re-running after code state reset: recreate the final HTML file with upgrades
-
-updated_html = """
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -84,10 +81,3 @@ updated_html = """
 </body>
 </html>
 """
-
-# Save to file
-final_path = "/mnt/data/index_updated.html"
-with open(final_path, "w", encoding="utf-8") as f:
-    f.write(updated_html)
-
-final_path
